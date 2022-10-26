@@ -10,69 +10,46 @@ which probably nobody is doing. Texels per second basically determine ammount of
 DX12:
 
 1000 GFLOPS = 15 fps
-
 160 gigapixels per second = fullhd
-
 40 gigapixels per second = hd
 
 a 4000 gflops card with 40 gps @ hd = 60 fps
-
 a 4000 gflops card with 160 gps @ hd = 60 fps
-
 a 4000 gflops card with 40 gps @ fullhd = 30 fps
-
 a 4000 gflops card with 160 gps @ fullhd = 60 fps
-
 
 
 DX11:
 
 1000 GFLOPS = 30 fps
-
 80 gigapixels per second = fullhd
-
 20 gigapixels per second = hd
 
 a 2000 gflops card with 20 gps @ hd = 60 fps
-
 a 2000 gflops card with 80 gps @ hd = 60 fps
-
 a 2000 gflops card with 20 gps @ fullhd = 30 fps
-
 a 2000 gflops card with 80 gps @ fullhd = 60 fps
-
 
 
 DX10:
 
 1000 GFLOPS = 60 fps
-
 40 gigapixels per second = fullhd
-
 10 gigapixels per second = hd
 
 a 1000 gflops card with 10 gps @ hd = 60 fps
-
 a 1000 gflops card with 40 gps @ hd = 60 fps
-
 a 1000 gflops card with 10 gps @ fullhd = 30 fps
-
 a 1000 gflops card with 40 gps @ fullhd = 60 fps
-
 
 
 DX9:
 
 1000 GFLOPS = 120 fps
-
 20 gigapixels per second = fullhd
-
 05 gigapixels per second = hd
 
 a 500 gflops card with 05 gps @ hd = 60 fps
-
 a 500 gflops card with 20 gps @ hd = 60 fps
-
 a 500 gflops card with 05 gps @ fullhd = 30 fps
-
 a 500 gflops card with 20 gps @ fullhd = 60 fps
