@@ -1,0 +1,48 @@
+1. Set TI depending on number of attackers:
+
+a) 1 attacker = shorter passing + retain posession
+b) 2 attackers = retain posession
+c) 3 attackers = shorter passing
+d) 4 attackers = mixed passing
+e) 5 attackers = direct passsing
+f) 6 attackers = go route one
+
+2. Set TI depending on number of defenders:
+
+a) 3 defenders = close down much less
+b) 4 defenders = close down less
+c) 5 defenders = mixed
+d) 6 defenders = close down more
+e) 7 defenders = close down much more
+
+3. Fluidity meaning:
+
+a) highly structured = players play assigned roles
+b) structured = players play assigned roles and duties
+c) flexible = players play assigned duties
+d) fluid = players can bypass role and duty
+e) very fluid = players can bypass role and duty and mentality
+
+4. Set support duties depending on fluidity (1 less if 3 CB's)
+
+a) highly structured = 0-1 support duties
+b) structured = 2-3 support duties
+c) flexible = 4-5 support duties
+d) fluid = 6-7 support duties
+e) very fluid = 8-9 support duties
+
+5. Changing fluidity and mentality is needed to make a specific part of the pitch your strong spot. However, the opposite will be your weak spot. This is useful if you want a group of players or a single player to excel for selling:
+
+a) very fluid = right
+b) fluid = central right
+c) flexible = centre
+d) structured = central left
+e) highly structured = left
+
+a) overload = GK
+b) attacking = SW
+c) control = CB
+d) standard = DM
+e) counter = MC
+f) defensive = AMC
+g) contain = ST
