@@ -31,7 +31,8 @@ c) flexible = 4-5 support duties
 d) fluid = 6-7 support duties
 e) very fluid = 8-9 support duties
 
-5. Changing fluidity and mentality is needed to make a specific part of the pitch your strong spot. However, the opposite will be your weak spot. This is useful if you want a group of players or a single player to excel for selling:
+5. Changing fluidity and mentality is needed to make a specific part of the pitch your strong spot. 
+However, the opposite will be your weak spot. This is useful if you want a group of players or a single player to excel for selling:
 
 a) very fluid = right
 b) fluid = central right
@@ -46,3 +47,6 @@ d) standard = DM
 e) counter = MC
 f) defensive = AMC
 g) contain = ST
+
+6. Changing fluidity and mentality will make your team weaker (if you decrease it), or too tired before match is over (if you increase it).
+Instead, change pressing instead of fluidity, and passing instead of mentality.
