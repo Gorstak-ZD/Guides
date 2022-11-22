@@ -1,0 +1,167 @@
+Maybe you need a stable miniature OS that runs everything. Don't debloat, download mini iso:
+
+http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/
+
+Burn with rufus to stick or if you're on Linux, type this:
+
+sudo dd if=pathtoiso of=nameofusbdevice(sdb)
+
+Boot from stick but not EFI. Do BIOS boot.
+
+Follow the instructions and when offered software, don't pick anything. After reboot, there wont be a GUI, so press ctrl + alt + F1 to get terminal. 
+You can now set root password. This account isn't accessible without a password set, but if you need it, type:
+
+sudo passwd root
+
+Now you can download GUI. For example xfce:
+
+sudo apt install xfce4
+
+Lightdm is essential for some gpus to show picture on screen, so pick lightdm.
+
+sudo apt install lightdm
+
+After that set to auto boot:
+
+sudo dpkg-configure ligthdm
+
+Now you can install a browser:
+
+sudo apt install firefox
+
+Or:
+
+sudo apt install chromium-browser
+
+If you need to search for specific package, like nvidia driver latest build, type:
+
+sudo apt search nvidia-driver-*
+
+To install it, type:
+
+sudo apt install nvidia-driver-435
+
+If you wish to do uninstall, type:
+
+sudo apt remove appname
+
+Above command can be used with wildcards too:
+
+sudo apt remove nvidia*
+
+If you also wish to remove dependencies of app you uninstalled:
+
+sudo apt autoremove
+
+All packages are in picked repos. To expand and add more repos:
+
+sudo apt install software-properties-common
+
+sudo add-apt-repository multiverse
+
+Alternatively, you can use nano editor and edit the repo list manually:
+
+sudo nano /etc/apt/sources.list
+
+After changing repos, refresh your system:
+
+sudo apt update
+
+If you need a list of packages in all repos:
+
+sudo apt list
+
+If you find a 3rd party package, you will need package manager to install it:
+
+sudo apt install gdebi
+
+If you have unmanaged devices:
+
+sudo nano /etc/NetworkManager/NetworkManager.conf
+
+Add this:
+
+[keyfile]
+
+unmanaged-devices=none
+
+CTRL+O to save, enter to confirm and CTRL+X to exit. You can restart services like this:
+
+sudo service network-manager restart
+
+Snap is like chocolatey on windows:
+
+sudo snap install discord
+
+I onda samo pokrenite discord naredbom:
+
+sudo /snap/bin/discord
+
+4 music:
+
+sudo apt install clementine
+
+4 videos:
+
+sudo snap install vlc
+
+4 torrents:
+
+sudo apt install transmission
+
+4 archives:
+
+sudo apt install file-roller
+
+4 rar files:
+
+sudo apt install unrar
+
+2 manage drives:
+
+sudo apt install gparted
+
+2 edit photos:
+
+sudo apt install gimp
+
+If you need gdrive:
+
+sudo add-apt-repository ppa:alessandro-strada/ppa
+
+sudo apt install google-drive-ocamlfuse
+
+mkdir /home/username/google-drive
+
+google-drive-ocamlfuse /home/username/google-drive
+
+2 setup access:
+
+sudo nano /etc/security/access.conf
+
+edit it with:
+
++:yourusername:LOCAL
+
++:root:tty1
+
+-:ALL:ALL
+
+With above edit you allowed yourself to logon locally, root to logon on terminal, and block everyone else from everywhere
+
+Now type:
+
+reboot
+
+Click the white button before typing in your password and change to xfce4.
+If you need some other desktop, you simply add it:
+
+sudo apt install kubuntu-desktop
+
+2 play games:
+
+sudo apt install steam
+
+Linux makes a difference between capitol and small letters and will return error if it is not exact.
+
+That's it. Enjoy!
