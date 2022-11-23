@@ -162,6 +162,6 @@ sudo apt install kubuntu-desktop
 
 sudo apt install steam
 
-Linux makes a difference between capitol and small letters and will return error if it is not exact.
+Linux makes a difference between capital and lowercase letters and will return error if it is not exact.
 
 That's it. Enjoy!
